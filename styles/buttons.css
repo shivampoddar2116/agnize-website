@@ -1,0 +1,33 @@
+.call-us-button {
+  background-color: rgb(4, 207, 255);
+  border: none;
+  font-family: myfont;
+  font-weight: bold;
+  border-radius: 50px;
+  font-size: 1rem;
+  cursor: pointer;
+  white-space: nowrap;
+  padding: 14px 25px;
+}
+
+.body-button {
+  background-color: rgb(4, 207, 255);
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border: none;
+  font-family: myfont;
+  font-weight: bold;
+  padding-left: 35px;
+  padding-right: 35px;
+  border-radius: 50px;
+  font-size: 15px;
+  transition:
+    color 0.15s,
+    background-color 0.5s;
+  cursor: pointer;
+}
+
+.about-us-button:hover {
+  background-color: rgb(44, 47, 59);
+  color: white;
+}

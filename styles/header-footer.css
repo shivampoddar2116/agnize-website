@@ -1,0 +1,165 @@
+.header{
+  height: 5rem;
+  background-color: rgb(44, 47, 59);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.header-width {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 1300px;
+}
+
+.header-left{
+  display: flex;
+  align-items: center;
+}
+
+.agnize-logo{
+  width: 60px;
+}
+
+.title-text{
+  font-size: 1rem;
+  color: rgb(232, 232, 232);
+  font-weight: bold;
+}
+
+.pages{
+  display: none;
+}
+
+@media (min-width: 780px) {
+  .pages{
+    display: revert;
+  }
+  .header-right{
+    display: flex;
+    justify-content: space-between;
+  }
+  .header-right div{
+    margin-left: 2rem;
+    color: white;
+    font-weight: bold;
+  }
+  .pages{
+    display:flex;
+    align-items: center;
+  }
+  .call-us-button{
+    margin-left: 1.5rem;
+  }
+  .title-text{
+    font-size: 1.1rem;
+    white-space: nowrap;
+  }
+}
+
+@media (min-width: 1050px) {
+  .header{
+    height: 6rem;
+  }
+  .agnize-logo{
+    margin-right: 2rem;
+    width: 80px;
+  }
+}
+
+/* footer */
+
+.footer{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(44, 47, 59);
+  color: white;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.footer-width{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-section-one{
+  padding-top: 3rem;
+}
+
+.footer-section-two{
+  font-size: 0.9rem;
+  padding-top: 3rem;
+}
+
+.agnize-logo-footer{
+  width: 5rem;
+}
+
+.footer-icons{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 4px;
+  max-width: 300px;
+}
+
+.footer-icon-section{
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.footer-facebook,
+.footer-instagram,
+.footer-twitter,
+.footer-linked-in {
+    border: solid;
+    border-radius: 100px;
+    border-color: rgb(28, 179, 225);
+    border-width: 3px;
+    padding: 10px;
+    width: 25px;
+}
+
+@media (min-width: 640px) {
+  .footer-width{
+    display: flex;
+  }
+  .footer-section-one{
+    flex:0.5
+  }
+  .footer-section-two{
+    flex:1
+  }
+  .footer-section-three{
+    flex:1.6;
+    margin-top: 28px;
+  }
+  .footer-section-top{
+    text-align: left;
+  }
+  .footer-icons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: auto;
+  }
+}
+
+@media (min-width:960px) {
+  .agnize-logo-footer{
+    margin-top: -1rem;
+    width: 7rem;
+  }
+  .footer-section-two{
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-top: -0.3rem;
+  }
+}

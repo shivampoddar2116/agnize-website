@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding-top: 5rem;
+  font-family: myfont;
+}
+
+p{
+  margin: 0;
+}
+
+a{
+  color: inherit !important;
+  text-decoration: none;
+}
+
+button, p {
+  font-family: myfont;
+}
+
+@font-face {
+  font-family: myfont;
+  src: url('../euclid-circular-a/Euclid\ Circular\ A\ Regular.ttf');
+}
+
+@font-face {
+  font-family: myfont;
+  src: url('../euclid-circular-a/Euclid\ Circular\ A\ Bold.ttf');
+  font-weight: bold;
+}
+
+html {
+  scroll-behavior: smooth;
+}
