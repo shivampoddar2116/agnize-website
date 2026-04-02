@@ -1,0 +1,77 @@
+.contact-div{
+  background-color: rgb(44, 47, 59);
+  color: white;
+  padding-top: 20px;
+}
+.contact-div-width{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.iframe-map{
+  border-radius: 20px;
+  width: 90%;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+}
+
+.contact-title{
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.contact-title-one, .contact-title-two, .contact-title-three {
+  margin-left: 5px;
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+}
+
+.map-center-div{
+  display: flex;
+  align-items: center;
+}
+
+.form-center-div{
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.iframe-form{
+  border-radius:20px;
+  width: 100%;
+  height: 880px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -1rem;
+}
+
+.enquiry-title{
+  margin-top: 4rem;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+@media (min-width: 720px) {
+  .google-map-address{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .contact-title{
+    font-size: 2.8rem;
+    padding-top: 2rem;
+  }
+  .contact-title-one, .contact-title-two{
+    font-size: 1.5rem;
+  }
+  .contact-title-three{
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin-top: 6.5rem;
+  }
+}
